@@ -1,2 +1,73 @@
-test
+[Adblock Plus 2.0]
+! Title: naughty playboy filer 
+! Last modified: 2/4/2019 0:32
+!! Expires: 14 days (stable)
+! Description: fun anime, game, uploader (main target is JP)
+!-------------------------------------------------------------------------------
+! https://ja.wikipedia.org/wiki/  # donation
+ja.wikipedia.org###frbanner-nag
+ja.wikipedia.org###frbanner-facts
+ja.wikipedia.org###frbanner-main
+ja.wikipedia.org###centralNotice
 
+! 2019/2/3 https://www9.atwiki.jp/f_go/
+www9.atwiki.jp###ads
+www9.atwiki.jp###google_relate_ads
+www9.atwiki.jp###left-ads
+www9.atwiki.jp###div-gpt-ad-atwiki_160_600_side_bottom_ad
+
+!! uploader
+! 2017/1/7 http://uploaded.net  # remove screen
+uploaded.net###taboola-404-container
+uploaded.net###fakeContentBoxContainer
+||uploaded.net/img/fb.html$subdocument
+! 2019/1/25 https://www.mexashare.com
+www.mexashare.com##.remodal-is-opening.remodal-is-initialized.adblock-instruction.remodal
+www.mexashare.com##.remodal-is-opening.remodal-overlay
+www.mexashare.com##.mgbox
+! faststone.org
+faststore.org###footer-slide-up
+
+!! Anime
+! http://b9good.com
+||css.b9good.com/closeadpic.png$image
+b9good.com###ad4
+vidoza.net###vplayer > .form-inline.feedback-big > .btn-block.btn-group
+@@play.web.vidoza.net
+clipwatching.com##.video_ad2_fadein
+! http://kissanime.ru
+kissanime.ru##.videoAdClose
+
+!! adult
+www.thisav.com##.video_actions > center
+www.yj1122.com##.no-padding.desktop-only.fix-right-content
+||i.caoav.net/main/bj.swf$object
+www.aisex.com###main > div:nth-of-type(1)
+||i[50-60].tinypic.com/*.gif
+!https://caoav.net/forum-5.htm
+! 2019/1/24 18:17:49 https://share-videos.se
+share-videos.se##.post_title_n_view.row > div:nth-of-type(2)
+share-videos.se##.widget_sponsored_area.widget.m0.row
+
+! 2019/1/26 http://momoniji.com
+momoniji.com##iframe[src="http://momoniji.com/rss/momonijitopRSS.html"]
+momoniji.com##iframe[src="http://momoniji.com/rss/tophukugan.html"]
+momoniji.com##iframe[src="http://momoniji.com/rss/tophukugan2.html"]
+
+
+!! 誤爆対策
+! www.rakuten-bank.co.jp ログイン画面表示
+@@fes.rakuten-bank.co.jp/rb/fes/js/common/s_code.js
+! www9.atwiki.jp 再臨画像表示
+@@img.atwikiimg.com/common/_img/spacer.gif?
+
+! disable anti-adblock
+www.ap-siken.com###kaisetsu > .ansbg:style(opacity:1.0 !important)
+
+! ---- Annoyance filters (temporary)----
+!! redirect ads
+refuzzling.pro
+nextoptim.com
+clubadsme.com
+!! popupads
+www.crc789.com
