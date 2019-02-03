@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
-! Title: naughty playboy filer 
+! Title: Naughty playboy filer 
 ! Last modified: 2/4/2019 0:32
 !! Expires: 14 days (stable)
-! Description: fun anime, game, uploader (main target is JP)
+! Description: fun anime, game, uploader
 !-------------------------------------------------------------------------------
 ! https://ja.wikipedia.org/wiki/  # donation
 ja.wikipedia.org###frbanner-nag
@@ -45,7 +45,7 @@ www.yj1122.com##.no-padding.desktop-only.fix-right-content
 www.aisex.com###main > div:nth-of-type(1)
 ||i[50-60].tinypic.com/*.gif
 !https://caoav.net/forum-5.htm
-! 2019/1/24 18:17:49 https://share-videos.se
+! 2019/1/24 https://share-videos.se
 share-videos.se##.post_title_n_view.row > div:nth-of-type(2)
 share-videos.se##.widget_sponsored_area.widget.m0.row
 
@@ -71,3 +71,6 @@ nextoptim.com
 clubadsme.com
 !! popupads
 www.crc789.com
+
+! ノイズレスサーチ -> uBlacklist使用に変更
+! www.google.co.jp##div.g:has(h3.r > a[href*="sejuku.net"])
