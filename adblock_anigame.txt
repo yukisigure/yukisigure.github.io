@@ -1,5 +1,5 @@
 [Adblock Plus 2.0]
-! Title: Naughty playboy filer 
+! Title: Naughty playboy filer jp
 ! Last modified: 2/4/2019 0:32
 !! Expires: 14 days (stable)
 ! Description: fun anime, game, uploader
@@ -20,6 +20,7 @@ www9.atwiki.jp###div-gpt-ad-atwiki_160_600_side_bottom_ad
 ! 2017/1/7 http://uploaded.net  # remove screen
 uploaded.net###taboola-404-container
 uploaded.net###fakeContentBoxContainer
+||uploaded.net^$popup
 ||uploaded.net/img/fb.html$subdocument
 ! 2019/1/25 https://www.mexashare.com
 www.mexashare.com##.remodal-is-opening.remodal-is-initialized.adblock-instruction.remodal
@@ -70,7 +71,5 @@ refuzzling.pro
 nextoptim.com
 clubadsme.com
 !! popupads
-www.crc789.com
+www.crc789.com^$popup
 
-! ノイズレスサーチ -> uBlacklist使用に変更
-! www.google.co.jp##div.g:has(h3.r > a[href*="sejuku.net"])
