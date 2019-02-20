@@ -54,13 +54,18 @@ share-videos.se##.widget_sponsored_area.widget.m0.row
 momoniji.com##iframe[src="http://momoniji.com/rss/momonijitopRSS.html"]
 momoniji.com##iframe[src="http://momoniji.com/rss/tophukugan.html"]
 momoniji.com##iframe[src="http://momoniji.com/rss/tophukugan2.html"]
-
+momoniji.com##a[href^="https://fam-ad.com/ad/p/r"]
+momoniji.com##a[href^="https://ad-nex.com/link.php"]
+momoniji.com##a[href^="https://ad.maist.jp/ad/p/r"]
+momoniji.com##a[href^="https://ad.ad-arata.com/click"]
 
 !! 誤爆対策
 ! www.rakuten-bank.co.jp ログイン画面表示
 @@fes.rakuten-bank.co.jp/rb/fes/js/common/s_code.js
 ! www9.atwiki.jp 再臨画像表示
 @@img.atwikiimg.com/common/_img/spacer.gif?
+! 150601.fc2rs.com 商品名表示
+@@https://amzn.to/*
 
 ! disable anti-adblock
 www.ap-siken.com###kaisetsu > .ansbg:style(opacity:1.0 !important)
