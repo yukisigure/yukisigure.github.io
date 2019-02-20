@@ -1,8 +1,8 @@
 [Adblock Plus 2.0]
 ! Title: Naughty playboy filer jp
-! Last modified: 2/4/2019 0:32
-!! Expires: 14 days (stable)
-! Description: fun anime, game, uploader
+! Last modified: 2/5/2019 0:32
+! Expires: 14 days (stable)
+! Description: fun anime, game, uploader (ja-JP)
 !-------------------------------------------------------------------------------
 ! https://ja.wikipedia.org/wiki/  # donation
 ja.wikipedia.org###frbanner-nag
