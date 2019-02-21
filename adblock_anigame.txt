@@ -10,11 +10,8 @@ ja.wikipedia.org###frbanner-facts
 ja.wikipedia.org###frbanner-main
 ja.wikipedia.org###centralNotice
 
-! 2019/2/3 https://www9.atwiki.jp/f_go/
-www9.atwiki.jp###ads
-www9.atwiki.jp###google_relate_ads
-www9.atwiki.jp###left-ads
-www9.atwiki.jp###div-gpt-ad-atwiki_160_600_side_bottom_ad
+! 2019/2/21 https://headlines.yahoo.co.jp/
+||s.yimg.jp/images/listing/tool/yads/yads-iframe.html^
 
 !! uploader
 ! 2017/1/7 http://uploaded.net  # remove screen
@@ -39,6 +36,17 @@ clipwatching.com##.video_ad2_fadein
 ! http://kissanime.ru
 kissanime.ru##.videoAdClose
 
+!! game
+! 2019/2/3 https://www9.atwiki.jp/f_go/
+www9.atwiki.jp###ads
+www9.atwiki.jp###google_relate_ads
+www9.atwiki.jp###left-ads
+www9.atwiki.jp###div-gpt-ad-atwiki_160_600_side_bottom_ad
+
+! 2019/2/19 https://appmedia.jp/fategrandorder/3031147
+appmedia.jp##.post-content > div:nth-of-type(6)
+appmedia.jp##.pr_tabs
+
 !! adult
 www.thisav.com##.video_actions > center
 www.yj1122.com##.no-padding.desktop-only.fix-right-content
@@ -51,7 +59,7 @@ share-videos.se##.post_title_n_view.row > div:nth-of-type(2)
 share-videos.se##.widget_sponsored_area.widget.m0.row
 
 ! 2019/2/26 http://momoniji.com
-||momoniji.com/ad/momonijiadtop.html$subdocument
+||momoniji.com/ad/momonijiadtop.html^
 momoniji.com##iframe[src="http://momoniji.com/rss/momonijitopRSS.html"]
 momoniji.com##iframe[src="http://momoniji.com/rss/tophukugan.html"]
 momoniji.com##iframe[src="http://momoniji.com/rss/tophukugan2.html"]
@@ -60,7 +68,7 @@ momoniji.com##a[href^="https://fam-ad.com/ad/p/r"]
 momoniji.com##a[href^="https://ad-nex.com/link.php"]
 momoniji.com##a[href^="https://ad.maist.jp/ad/p/r"]
 momoniji.com##a[href^="https://ad.ad-arata.com/click"]
-! http://momoniji.com cosmetic filter
+! 残骸除去用 cosmetic filter
 momoniji.com###fam_rb > iframe
 momoniji.com###famad_side1 > iframe
 momoniji.com###famad_side2 > iframe
