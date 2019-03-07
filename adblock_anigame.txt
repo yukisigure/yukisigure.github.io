@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: Naughty playboy filer jp
-! Last modified: 2/21/2019 0:32
+! Last modified: 3/8/2019 0:00
 ! Expires: 14 days (stable)
 ! Description: fun anime, game, uploader (ja-JP)
 !-------------------------------------------------------------------------------
@@ -19,10 +19,13 @@ uploaded.net###taboola-404-container
 uploaded.net###fakeContentBoxContainer
 ||uploaded.net^$popup
 ||uploaded.net/img/fb.html$subdocument
-! 2019/1/25 https://www.mexashare.com
+! 2019/1/25 https://www.mexashare.com -> https://mx-sh.net redirect?
 www.mexashare.com##.remodal-is-opening.remodal-is-initialized.adblock-instruction.remodal
 www.mexashare.com##.remodal-is-opening.remodal-overlay
 www.mexashare.com##.mgbox
+! 2019/3/7  https://mx-sh.net
+mx-sh.net##.remodal-is-opening.remodal-wrapper
+mx-sh.net##.remodal-is-opening.remodal-overlay
 ! faststone.org
 faststore.org###footer-slide-up
 
@@ -42,6 +45,9 @@ www9.atwiki.jp###ads
 www9.atwiki.jp###google_relate_ads
 www9.atwiki.jp###left-ads
 www9.atwiki.jp###div-gpt-ad-atwiki_160_600_side_bottom_ad
+
+! 2019/3/4 https://gamewith.jp/fgo/article/show/59162
+gamewith.jp##.is-recruit-banner
 
 ! 2019/2/19 https://appmedia.jp/fategrandorder/3031147
 appmedia.jp##.post-content > div:nth-of-type(6)
@@ -75,6 +81,9 @@ momoniji.com###famad_side2 > iframe
 momoniji.com###text-11
 momoniji.com###text-12
 
+! 2019/3/3 http://moeimg.net
+moeimg.net##.data-sticky_column.widget-container
+
 !! 誤爆対策
 ! www.rakuten-bank.co.jp ログイン画面表示
 @@fes.rakuten-bank.co.jp/rb/fes/js/common/s_code.js
@@ -93,4 +102,3 @@ nextoptim.com
 clubadsme.com
 !! popupads
 www.crc789.com^$popup
-
