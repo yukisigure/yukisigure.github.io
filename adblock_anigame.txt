@@ -1,6 +1,6 @@
 [Adblock Plus 2.0]
 ! Title: Naughty playboy filer jp
-! Last modified: 3/8/2019 0:00
+! Last modified: 8/13/2019 0:00
 ! Expires: 14 days (stable)
 ! Description: fun anime, game, uploader (ja-JP)
 !-------------------------------------------------------------------------------
@@ -92,8 +92,10 @@ moeimg.net##.data-sticky_column.widget-container
 ! Amazon 商品名表示
 @@https://amzn.to/*
 
-! disable anti-adblock
+! --- disable anti-adblock ---
+! 過去問道場
 www.ap-siken.com###kaisetsu > .ansbg:style(opacity:1.0 !important)
+www.sc-siken.com###kaisetsu > .ansbg:style(opacity:1.0 !important)
 
 ! ---- Annoyance filters (temporary)----
 !! redirect ads
