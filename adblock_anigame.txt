@@ -13,6 +13,8 @@ ja.wikipedia.org###centralNotice
 ! 2019/2/21 https://headlines.yahoo.co.jp/
 ||s.yimg.jp/images/listing/tool/yads/yads-iframe.html^
 
+www.bing.com##.adbDef:nth-of-type(1)
+
 !! uploader
 ! 2017/1/7 http://uploaded.net  # remove screen
 uploaded.net###taboola-404-container
@@ -26,6 +28,8 @@ www.mexashare.com##.mgbox
 ! 2019/3/7  https://mx-sh.net
 mx-sh.net##.remodal-is-opening.remodal-wrapper
 mx-sh.net##.remodal-is-opening.remodal-overlay
+mexa.sh##.remodal-is-opening.remodal-wrapper
+mexa.sh##.remodal-is-opening.remodal-overlay
 ! faststone.org
 faststore.org###footer-slide-up
 
@@ -38,6 +42,7 @@ vidoza.net###vplayer > .form-inline.feedback-big > .btn-block.btn-group
 clipwatching.com##.video_ad2_fadein
 ! http://kissanime.ru
 kissanime.ru##.videoAdClose
+kissanime.ru##.glx-teaser
 
 !! game
 ! 2019/2/3 https://www9.atwiki.jp/f_go/
@@ -69,7 +74,7 @@ share-videos.se##.widget_sponsored_area.widget.m0.row
 momoniji.com##iframe[src="http://momoniji.com/rss/momonijitopRSS.html"]
 momoniji.com##iframe[src="http://momoniji.com/rss/tophukugan.html"]
 momoniji.com##iframe[src="http://momoniji.com/rss/tophukugan2.html"]
-! ||example.com^ で遮断できないのでDOM操作
+! ||example.com^ 无法阻止DOM操作
 momoniji.com##a[href^="https://fam-ad.com/ad/p/r"]
 momoniji.com##a[href^="https://ad-nex.com/link.php"]
 momoniji.com##a[href^="https://ad.maist.jp/ad/p/r"]
@@ -85,7 +90,7 @@ momoniji.com###text-12
 moeimg.net##.data-sticky_column.widget-container
 
 !! 誤爆対策
-! www.rakuten-bank.co.jp ログイン画面表示
+! www.rakuten-bank.co.jp 登录画面表示
 @@fes.rakuten-bank.co.jp/rb/fes/js/common/s_code.js
 ! www9.atwiki.jp 再臨画像表示
 @@img.atwikiimg.com/common/_img/spacer.gif?
