@@ -1,0 +1,33 @@
+<head>
+    <meta charset="utf-8">
+</head>
+<body>
+    <video id="remote-video" autoplay controls muted></video>
+    <script type="text/javascript" src="./sora.min.js"></script>
+    <script type="text/javascript">
+     const channelId = 'your-github-id@sora-labo';
+     const signalingUrl = 'wss://sora-labo.shiguredo.jp/signaling';
+     const metadata = {"signaling_key": "-beqZYNXnazpNoAFmBgjCdXDynlVEEXev1rI3BHkMEdUzmkn"};
+
+     const debug = true;
+     const sora = Sora.connection(signalingUrl, debug);
+     let options = {
+         audio: true,
+         audioCodecType: 'OPUS',
+         audioBitRate: 96,
+         video: true,
+         videoCodecType: 'H264',
+         videoBitRate: 1500,
+     }
+     const subscriber = sora.subscriber(channelId, metadata, options);
+
+     subscriber.connect()
+               .then(stream => {
+                   document.querySelector('#remote-video').srcObject = stream;
+               })
+               .catch(e => {
+                   console.error(e);
+               });
+    </script>
+</body>
+</html>
