@@ -11,13 +11,24 @@ ja.wikipedia.org###frbanner-main
 ja.wikipedia.org###centralNotice
 ja.wikipedia.org###frb-inline
 
+! 2019/12/18 21:42:17 https://www.yahoo.co.jp/
+www.yahoo.co.jp###wrapper > div > div > div:nth-of-type(2)
 ! 2019/2/21 https://headlines.yahoo.co.jp/
 ||s.yimg.jp/images/listing/tool/yads/yads-iframe.html^
+
+oshiete.goo.ne.jp###gooad-display-pc_overlay
+
+! 2019/10/21 18:36:36 https://dev.classmethod.jp/security/authentication-and-authorization/
+dev.classmethod.jp###articleNavsPosttypeNewsTypeNew
 
 www.bing.com##.adbDef:nth-of-type(1)
 
 ! 2019/8/19 17:12:53 https://proengineer.internous.co.jp
 proengineer.internous.co.jp###CONTACT_BTN
+
+! 2019/12/27 10:54:27 https://news.mynavi.jp/article/20170424-akamaicldapattack/
+||cdn.sove-x.com/vpaid/creative/*/*/videos/*$media
+news.mynavi.jp##p:nth-of-type(3)
 
 !! uploader
 ! 2017/1/7 http://uploaded.net  # remove screen
