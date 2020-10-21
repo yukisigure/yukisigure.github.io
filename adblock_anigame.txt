@@ -1,7 +1,7 @@
 [Adblock Plus 2.0]
 ! Title: Naughty playboy filer jp
-! Last modified: 8/13/2019 0:00
-! Expires: 14 days (stable)
+! Last modified: 21/10/2020 0:00
+! Expires: feel like it
 ! Description: fun anime, game, uploader (ja-JP)
 !-------------------------------------------------------------------------------
 ! https://ja.wikipedia.org/wiki/  # donation
@@ -15,6 +15,10 @@ ja.wikipedia.org###frb-inline
 www.yahoo.co.jp###wrapper > div > div > div:nth-of-type(2)
 ! 2019/2/21 https://headlines.yahoo.co.jp/
 ||s.yimg.jp/images/listing/tool/yads/yads-iframe.html^
+! 2020/9/19 https://weather.yahoo.co.jp/weather/jp/
+weather.yahoo.co.jp###ydn-mid
+weather.yahoo.co.jp###ad-new-ysp
+weather.yahoo.co.jp###ydn-top
 
 oshiete.goo.ne.jp###gooad-display-pc_overlay
 
@@ -36,6 +40,10 @@ uploaded.net###taboola-404-container
 uploaded.net###fakeContentBoxContainer
 ||uploaded.net^$popup
 ||uploaded.net/img/fb.html$subdocument
+uploaded.net##body > div:nth-of-type(5)
+||uploaded.net/img/e/center.gif$image
+||uploaded.net/img/e/box.png$image
+
 ! 2019/1/25 https://www.mexashare.com -> https://mx-sh.net redirect?
 www.mexashare.com##.remodal-is-opening.remodal-is-initialized.adblock-instruction.remodal
 www.mexashare.com##.remodal-is-opening.remodal-overlay
@@ -48,6 +56,10 @@ mexa.sh##.remodal-is-opening.remodal-overlay
 ! faststone.org
 faststore.org###footer-slide-up
 
+! 2020/9/12 https://filerio.in
+filerio.in##.BannerContainer
+filerio.in##html > div
+
 !! Anime
 ! http://b9good.com
 ||css.b9good.com/closeadpic.png$image
@@ -59,6 +71,19 @@ clipwatching.com##.video_ad2_fadein
 kissanime.ru##.videoAdClose
 kissanime.ru##.glx-teaser
 
+! 2019/9/21 http://www.nicozon.net
+||spnet2-1.i-mobile.co.jp/ad_spot.aspx$subdocument
+||spnet33.i-mobile.co.jp/ad_spot.aspx$subdocument
+
+! 2019/11/27 https://dic.nicovideo.jp/l/
+dic.nicovideo.jp###LEFT_AD_ELEMENT
+dic.nicovideo.jp###RIGHT_AD_ELEMENT
+dic.nicovideo.jp###right-column > div:nth-of-type(3)
+
+! https://technical.city/ja/cpu/Celeron-J4125 動画広告
+||https://s.vdo.ai/vhs/
+||https://a.vdo.ai/core/
+
 !! game
 ! 2019/2/3 https://www9.atwiki.jp/f_go/
 www9.atwiki.jp###ads
@@ -68,12 +93,14 @@ www9.atwiki.jp###div-gpt-ad-atwiki_160_600_side_bottom_ad
 
 ! 2019/3/4 https://gamewith.jp/fgo/article/show/59162
 gamewith.jp##.is-recruit-banner
+gamewith.jp###yadsOverlayUnit
 
 ! 2019/2/19 https://appmedia.jp/fategrandorder/3031147
 appmedia.jp##.post-content > div:nth-of-type(6)
 appmedia.jp##.pr_tabs
+appmedia.jp###fluct-pc-sticky-ad
 
-!! adult
+!! hentai
 www.thisav.com##.video_actions > center
 www.yj1122.com##.no-padding.desktop-only.fix-right-content
 ||i.caoav.net/main/bj.swf$object
@@ -89,6 +116,10 @@ share-videos.se##.widget_sponsored_area.widget.m0.row
 momoniji.com##iframe[src="http://momoniji.com/rss/momonijitopRSS.html"]
 momoniji.com##iframe[src="http://momoniji.com/rss/tophukugan.html"]
 momoniji.com##iframe[src="http://momoniji.com/rss/tophukugan2.html"]
+||https://static.pc-adroute.focas.jp/js/adroute_ads.js
+||https://static.pc-adroute.focas.jp/tmp/bannars/
+||https://pixel.tapad.com/idsync/ex/
+||ap.octopuspop.com
 ! ||example.com^ 无法阻止DOM操作
 momoniji.com##a[href^="https://fam-ad.com/ad/p/r"]
 momoniji.com##a[href^="https://ad-nex.com/link.php"]
@@ -100,9 +131,25 @@ momoniji.com###famad_side1 > iframe
 momoniji.com###famad_side2 > iframe
 momoniji.com###text-11
 momoniji.com###text-12
+momoniji.com###apptemp11
 
 ! 2019/3/3 http://moeimg.net
 moeimg.net##.data-sticky_column.widget-container
+
+! 2019/6/1 http://buhidoh.net
+buhidoh.net##.banbox:nth-of-type(3)
+buhidoh.net##.banbox:nth-of-type(5)
+
+! 2019/7/8 http://nijinchu.com
+nijinchu.com###side_bar
+
+! 2019/7/25 2:36:40 https://xn--r8jwklh769h2mc880dk1o431a.com
+xn--r8jwklh769h2mc880dk1o431a.com##div:nth-of-type(5) > .mannakka
+xn--r8jwklh769h2mc880dk1o431a.com##div:nth-of-type(6) > .mannakka
+xn--r8jwklh769h2mc880dk1o431a.com##.kizi > div:nth-of-type(7)
+xn--r8jwklh769h2mc880dk1o431a.com##div:nth-of-type(8) > .mannakka
+xn--r8jwklh769h2mc880dk1o431a.com###skinadstyle:nth-of-type(1)
+xn--r8jwklh769h2mc880dk1o431a.com###skinadstyle:nth-of-type(2)
 
 !! 誤爆対策
 ! www.rakuten-bank.co.jp 登录画面表示
@@ -114,6 +161,7 @@ moeimg.net##.data-sticky_column.widget-container
 
 ! --- disable anti-adblock ---
 ! 過去問道場
+www.ap-siken.com###kaisetsu > p
 www.ap-siken.com###kaisetsu > .ansbg:style(opacity:1.0 !important)
 www.sc-siken.com###kaisetsu > .ansbg:style(opacity:1.0 !important)
 
